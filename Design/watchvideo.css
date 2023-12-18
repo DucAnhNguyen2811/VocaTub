@@ -9,7 +9,9 @@ body {
     display: flex;
     flex-direction: column;
 }
-
+h4{
+    margin: 0;
+}
 a {
     text-decoration: none;
     color: #000000;
@@ -334,10 +336,35 @@ video{
     background-color: rgb(221, 221, 221);
     cursor: pointer;
 }
-
-
-
-
+.describe_video{
+    margin-top: 12px;
+    border-radius: 10px;
+    background-color: rgb(210, 210, 210);
+    height: 110px;
+    width: 100%;
+}
+.text_describe{
+    padding: 10px 0 0 10px;
+}
+.comments{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+.style_comment{
+    font-size: 20px;
+    font-weight: 500;
+}
+.style_comment2{
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+}
+.icon_user{
+    font-size: 40px;
+}
 
 
 
