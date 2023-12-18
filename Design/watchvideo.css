@@ -15,6 +15,12 @@ a {
     color: #000000;
 }
 
+button,
+input {
+    outline: none;
+    border: none;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -170,9 +176,16 @@ video{
     margin: 12px 0 12px;
 }
 
+/*channel_action*/
+.channel_action{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
 /*channel_action_left*/
 .channel_action_left{
-    width: 100%;
+
 }
 .logo_channel{
     cursor: pointer;
@@ -208,6 +221,132 @@ video{
 .register_channel:hover{
     background-color: #292828;
 }
+
+/*channel_action_right*/
+.channel_action_right{
+    display: flex;
+    gap: 10px;
+}
+.like_dislike{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 120px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.icon_likedis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+}
+.icon_likedis:hover{
+    cursor: pointer;
+    background-color: rgb(221, 221, 221);
+}
+.share{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 100px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.btn_share{
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+}
+.btn_share:hover{
+    background-color: rgb(221, 221, 221);
+    cursor: pointer;
+}
+.download{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 110px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.btn_down{
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;    
+    white-space: nowrap;
+}
+.btn_down:hover{
+    background-color: rgb(221, 221, 221);
+    cursor: pointer;
+}
+.donate{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 110px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.btn_donat{
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;    
+    white-space: nowrap;
+}
+.btn_donat:hover{
+    background-color: rgb(221, 221, 221);
+    cursor: pointer;
+}
+.more{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 40px;
+    height: 50px;
+}
+.btn_more{
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;    
+    white-space: nowrap;
+}
+.btn_more:hover{
+    background-color: rgb(221, 221, 221);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
