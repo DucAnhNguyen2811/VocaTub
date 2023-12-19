@@ -2,6 +2,10 @@
   display: flex;
   flex-wrap: wrap;
 }
+.grad {
+  display: flex;
+  flex-wrap: nowrap;
+}
 
 .col {
   padding: 8px;
