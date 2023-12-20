@@ -317,3 +317,20 @@ input {
     font-size: 11px;
     color: gray;
 }
+/*main_content*/
+.main_content {
+    position: relative;
+    /* width: 100%; */
+    flex: 1;
+    overflow: scroll;
+}
+.main_content::-webkit-scrollbar-thumb{
+    visibility: visible;
+}
+.banner{
+
+}
+.style_banner{
+    width: 1290px;
+    height: 209px;
+}
