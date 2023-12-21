@@ -320,7 +320,7 @@ input {
 /*main_content*/
 .main_content {
     position: relative;
-    /* width: 100%; */
+    width: 100%;
     flex: 1;
     overflow: scroll;
 }
@@ -331,6 +331,7 @@ input {
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .channel_top{
     width: 80%;
@@ -344,6 +345,10 @@ input {
     width: 100%;
     /* height: 40%; */
     display: flex;
+    margin-bottom: 20px;
+}
+.logo_channel{
+    width: 16%;
 }
 .info_channel{
     width: 100%;
@@ -373,8 +378,41 @@ input {
     background-color: #2a2a2a;
 }
 .list_channel{
+    height: 50px;
     display: flex;
 }
+.style_list{
+    font-size: 17px;
+    font-weight: 400;
+    color: grey;
+    align-items: center;
+    display: flex;
+    margin-right: 24px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.on{
+    border-bottom: 2px solid black;
+}
+.line_main{
+    width: 100%;
+    height: 1px;
+    flex-shrink: 1;
+    position: relative;
+    flex-grow: 1;
+    background-color: #f0f0f0;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 1200px) {
